@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.treez.extensionPoint.atomContextMenu">
+      <contextMenuExtender
+            extendedClass="org.treez.model.atom.executable.Executable"
+            extendingClass="org.ikwed.atom.TestContextMenuContributor">
+      </contextMenuExtender>
+   </extension>
+
+</plugin>
